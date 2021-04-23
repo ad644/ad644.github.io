@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Arup&#39;s Memoirs</title>
+    <link>https://ad644.github.io/posts/</link>
+    <description>Recent content in Posts on Arup&#39;s Memoirs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 23 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ad644.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo static site generator - Installation under Windows® and basic usage</title>
+      <link>https://ad644.github.io/posts/hugo-static-site-generator-installation-under-windows-and-basic-usage/</link>
+      <pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ad644.github.io/posts/hugo-static-site-generator-installation-under-windows-and-basic-usage/</guid>
+      <description>Static site generators (SSG) has gain lot of attention recently because of simple process of creating and managing websites. Websites created by static site generators are blazing fast and usually loads within seconds! No matter it&amp;rsquo;s a personal blog or a professional website, SSG got it covered.A static site generator is generally a set of tools to build static HTML websites based on templates and raw data. Nowadays it has become a popular alternative to traditional CMS (i.</description>
+    </item>
+    
+  </channel>
+</rss>

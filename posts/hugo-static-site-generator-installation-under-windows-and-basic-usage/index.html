@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>Hugo static site generator - Installation under Windows® and basic usage // Arup&#39;s Memoirs</title>
+    <link rel="shortcut icon" href="/me.png" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.82.1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Arup D." />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="https://ad644.github.io/css/main.min.4a7ec8660f9a44b08c4da97c5f2e31b1192df1d4d0322e65c0dbbc6ecb1b863f.css" />
+
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-25CYYWB61S"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-25CYYWB61S', { 'anonymize_ip': false });
+}
+</script>
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Hugo static site generator - Installation under Windows® and basic usage"/>
+<meta name="twitter:description" content="Static site generators (SSG) has gain lot of attention recently because of simple process of creating and managing websites. Websites created by static site generators are blazing fast and usually loads within seconds! No matter it&rsquo;s a personal blog or a professional website, SSG got it covered.A static site generator is generally a set of tools to build static HTML websites based on templates and raw data. Nowadays it has become a popular alternative to traditional CMS (i."/>
+
+    <meta property="og:title" content="Hugo static site generator - Installation under Windows® and basic usage" />
+<meta property="og:description" content="Static site generators (SSG) has gain lot of attention recently because of simple process of creating and managing websites. Websites created by static site generators are blazing fast and usually loads within seconds! No matter it&rsquo;s a personal blog or a professional website, SSG got it covered.A static site generator is generally a set of tools to build static HTML websites based on templates and raw data. Nowadays it has become a popular alternative to traditional CMS (i." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ad644.github.io/posts/hugo-static-site-generator-installation-under-windows-and-basic-usage/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-04-23T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2021-04-23T00:00:00&#43;00:00" />
+
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="https://ad644.github.io/"><img class="app-header-avatar" src="/me.png" alt="Arup D." /></a>
+      <h1>Arup&#39;s Memoirs</h1>
+      <nav class="app-header-menu">
+          <a class="app-header-menu-item" href="/">Home</a>
+             - 
+          
+          <a class="app-header-menu-item" href="/about/">About</a>
+             - 
+          
+          <a class="app-header-menu-item" href="/posts/">Articles</a>
+      </nav>
+      <p>Scribe, Learner</p>
+      <div class="app-header-social">
+        
+          <a href="https://join.skype.com/invite/BOGo7yV6GgDM" target="_blank" rel="noreferrer noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-message-circle">
+  <title>Skype</title>
+  <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+</svg>
+          </a>
+        
+          <a href="https://github.com/ad644" target="_blank" rel="noreferrer noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-github">
+  <title>Github</title>
+  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+</svg>
+          </a>
+        
+          <a href="mailto:ad644@pm.me" target="_blank" rel="noreferrer noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-mail">
+  <title>Email</title>
+  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline>
+</svg>
+          </a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Hugo static site generator - Installation under Windows® and basic usage</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Apr 23, 2021
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          3 min read
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+      <p>Static site generators (SSG) has gain lot of attention recently because of simple process of creating and managing websites. Websites created by static site generators are blazing fast and usually loads within seconds! No matter it&rsquo;s a personal blog or a professional website, SSG got it covered.<!-- raw HTML omitted --></p>
+<p>A static site generator is generally a set of tools to build static HTML websites based on templates and raw data. Nowadays it has become a popular alternative to traditional CMS (i.e. Wordpress) because of scale, performance and better security.<!-- raw HTML omitted --></p>
+<h3 id="popular-static-site-generators">Popular static site generators</h3>
+<ul>
+<li><a href="https://jekyllrb.com/">Jekyll</a></li>
+<li><a href="https://gohugo.io/">Hugo</a></li>
+<li><a href="https://www.gatsbyjs.com/">Gatsby</a></li>
+<li><a href="https://nextjs.org/">Next.js</a></li>
+</ul>
+<p>I personally prefer Hugo as SSG. It is written in Go language, has seen lot of improvements in features and performance over the years and most importantly it is open source (licensed under Apache License 2.0). It is easy to deploy and don&rsquo;t require much expertise to configure according to needs.<!-- raw HTML omitted --></p>
+<p>This article will explain how to install and run Hugo under the most commonly used operating system, Microsoft Windows®.<!-- raw HTML omitted --></p>
+<h2 id="installation">Installation</h2>
+<ol>
+<li>Download latest version of Hugo for Windows from <a href="https://github.com/gohugoio/hugo/releases">here.</a></li>
+<li>Extract the zip archive and copy the executable file (Hugo) from that extracted folder to any other place as you like. (i.e. C:\Hugo\bin)</li>
+<li>You may want to add that location to your system path, so that you can call the &lsquo;hugo&rsquo; command from anywhere.</li>
+<li>Now you can check the installation by opening command prompt (CMD) and issuing following command:<!-- raw HTML omitted --><!-- raw HTML omitted --></li>
+</ol>
+<pre><code>hugo version
+</code></pre><!-- raw HTML omitted -->
+<h2 id="basic-usage">Basic Usage</h2>
+<ol>
+<li>Go to the location where you want to create your static website.<!-- raw HTML omitted --></li>
+<li>Open CMD and issue following command to create the folder for you new website:<!-- raw HTML omitted --></li>
+</ol>
+<pre><code>hugo new site new_site
+</code></pre><!-- raw HTML omitted -->
+<p>Here, new_site is an example, you can give it any name as per your need.<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<ol start="3">
+<li>
+<p>Now you need to download a Hugo theme and put it under &ldquo;themes&rdquo; directory (create it if not there) of the newly created &ldquo;new_site&rdquo; folder. You can get a theme from <a href="https://themes.gohugo.io/">here</a>.<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</li>
+<li>
+<p>Then edit the <strong>config.toml</strong> file located inside the &ldquo;new_site&rdquo; folder (better to use Notepad++ or any other code editor) and add following line in that file-<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</li>
+</ol>
+<pre><code>theme = &quot;theme_name&quot;
+</code></pre><!-- raw HTML omitted -->
+<p>You can also edit other parameters in that file, like- title of your website, base URL and so on.<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<ol start="5">
+<li>After basic configuration, you can run a local server with below command:<!-- raw HTML omitted --><!-- raw HTML omitted --></li>
+</ol>
+<pre><code>hugo server -D
+</code></pre><p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<ol start="6">
+<li>
+<p>Open a web browser and go to <strong>localhost:1313</strong> from address bar to see the website up and running. if you make any changes, you can see those live.<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</li>
+<li>
+<p>Following command will generate static HTML website contents for hosting:<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</li>
+</ol>
+<pre><code>hugo -D
+</code></pre><p><!-- raw HTML omitted --><!-- raw HTML omitted -->output will be under &ldquo;public&rdquo; directory by default.<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted -->However, if you want to learn more about configuration and management of Hugo then don&rsquo;t forget to check <a href="https://gohugo.io/documentation/">Hugo docs.</a></p>
+
+    </div>
+    <div class="post-footer">
+      <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "iamarup" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>
